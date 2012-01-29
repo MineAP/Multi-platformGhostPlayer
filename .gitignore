@@ -1,0 +1,8 @@
+
+*.DS_Store
+
+*.class
+*Thumbs.db
+resource/balloon*
+resource/ghost*
+resource/shell*
