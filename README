@@ -7,3 +7,33 @@ MGPは、(少なくとも現状は)Pure Javaで書かれており、Java仮想�
 (2) ライセンス
 
 Multi-platformGhostPlayer(MGP)は、MITライセンスのもとで使用する事ができます。
+
+
+(3) デフォルトのゴースト
+
+MGPは、デフォルトのゴーストが"kuronee"(黒姉)であると仮定して動作します。
+(動作の確認は 黒姉（デギン・ソド・ザビ版） http://www.kuromi.jp/nanika/nanika.html で行っています。)
+
+そのため、以下のフォルダ構成で、ゴーストの設定、シェル、およびバルーンが格納されている必要があります。
+
+resource/balloon/default/
+					arrow0.png
+					arrow1.png
+					balloonc0.png
+					...
+
+resource/ghost/kuronee/
+					alias.txt
+					descript.txt
+
+resource/shell/kuronee/
+					descript.txt
+					menu_background.png
+					...
+					
+resource/shell/kuronee_1/
+					...
+
+MGPを起動する際は、上記構成のresourceディレクトリのパスを第１引数に指定して起動する必要があります。
+
+
