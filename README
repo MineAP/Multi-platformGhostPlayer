@@ -1,0 +1,9 @@
+(1) Multi-platformGhostPlayer(MGP)とは
+
+Multi-platformGhostPlayer(MGP)は、様々なプラットフォームで動作する、"伺か"のクローンを目指しています。
+MGPは、(少なくとも現状は)Pure Javaで書かれており、Java仮想マシンが動作するすべての環境で動作させることができます。
+
+
+(2) ライセンス
+
+Multi-platformGhostPlayer(MGP)は、MITライセンスのもとで使用する事ができます。
